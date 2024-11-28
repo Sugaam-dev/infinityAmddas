@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Page</title>
+    <link href="assets/css/sign2.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body style='background-image: url("assets/img/sign2.jpg");  '>
+    <div class="container">
+        
+      
+            
+        </div>
+        <div class="right">
+            <div class="logo">
+                <img src="path_to_logo_image" alt="Amadas Logo">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </nav>
+            <div class="login-form">
+                <h1>Create</h1>
+                <form action="sign2.php">
+                    <div class="input-group">
+                        <label for="old-password">Old Password</label>
+                        <input type="password" id="old-password" name="old-password" value="">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" value="hello@reallygreatsite.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="new-password">New Password</label>
+                        <input type="password" id="new-password" name="new-password" value="">
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LfbB_YpAAAAAJONQLr_3n7dzVU5Lz96IOi6MXjR"></div>
+                    <button type="submit" class="link signup-button">Sign Up</button>
+                    <div class="social-icons">
+                        <a href="#"><img src="assets/img/whatsapp.png"style="height: 25px;"alt="whatsapp"></a>&nbsp;&nbsp;
+                        <a href="#"><img src="assets/img/insta.png" alt="Instagram"style="height: 30px; border-radius: 20px;"></a>&nbsp;&nbsp;
+                        <a href="#"><img src="assets/img/facebook.jpeg" alt="Facebook" style="height: 25px; border-radius: 10px;"></a>&nbsp;&nbsp;
+                        <a href="#"><img src="assets/img/skype.jpg" alt="Skype" style="height: 25px; border-radius: 12px;"></a>&nbsp;&nbsp;
+                        <a href="#"><img src="assets/img/google.png" alt="Google" style="height: 25px; border-radius: 10px;"></a>
+                    </div><br>
+                    <button type="button" class="captcha-button">Enter Captcha</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
